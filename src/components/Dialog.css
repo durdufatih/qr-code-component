@@ -1,0 +1,47 @@
+.mainDiv {
+  background-color: var(--white);
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qrdiv {
+  text-align: center;
+  width: 300px;
+  height: 250px;
+  border-radius: 20px;
+  min-height: 150px;
+  background-color: var(--dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr {
+  padding: 45px;
+}
+
+.dialog {
+  width: 275px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.dialog-title {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.dialog-description {
+  margin-top: 10px;
+  color: gray;
+}
+
+.qr-value{
+    width: 200px;
+    height: 200px;
+}
