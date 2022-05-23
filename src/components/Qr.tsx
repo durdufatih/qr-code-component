@@ -1,10 +1,10 @@
 import React from 'react'
 import QRCode from "react-qr-code";
 
-function Qr() {
-  return (
-    <div><QRCode size={200}  bgColor="#ffffff"  value="https://github.com/durdufatih" /></div>
-  )
+function Qr(props: { qrvalue: string }) {
+    return (
+        <div><QRCode size={200} bgColor="#ffffff" value={props.qrvalue} /></div>
+    )
 }
 
 export default Qr

@@ -1,13 +1,12 @@
 import './Dialog.css'
-import Qr from './QR'
-
+import Qr from './Qr'
 
 function Dialog() {
     return (
         <div>
             <div className='mainDiv'>
                 <div className='qrdiv'>
-                    <div className='qr'><Qr /></div>
+                    <div className='qr'><Qr qrvalue='https://github.com/durdufatih' /></div>
                 </div>
 
                 <div className='dialog'>
